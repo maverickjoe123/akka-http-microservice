@@ -1,9 +1,7 @@
 def sbtCmd = "sbt"
 
 pipeline {
-agent {
-    label 'sbt'
-}
+
 stages {
     stage('Build App') {
     steps {
